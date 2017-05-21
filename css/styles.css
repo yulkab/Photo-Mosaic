@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
+canvas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 300px;
+}
+
+.wrap{
+    max-width: 80%;
+    min-height: 200px;
+    padding: 10px;
+    overflow: hidden;
+    margin: 20px auto;
+    border: 1px solid lightcoral;
+    text-align: center;
+}
+.wrap .wrap{
+    min-height: auto;
+    margin: 0 auto;
+    border: 0 none;
+}
+
+.mosaic{
+    margin: 20px auto;
+}
+.mosaic >img{
+   display: block;
+     float: left;
+}
+
+.group{
+    clear: left;
+}
+
